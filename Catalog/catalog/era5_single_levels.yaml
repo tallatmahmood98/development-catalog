@@ -1,0 +1,14 @@
+metadata:
+  description: >-
+    This dataset is related to ERA5 that is the fifth generation ECMWF atmospheric reanalysis of the global climate. Reanalysis combines model data with observation data from satellite and in-situ stations from across the world into a globally complete and consistent dataset using ECMWF's Integrated Forecast System (IFS). This dataset is generated using Copernicus Climate Change Service Information 2020 and is a subset of the Climate Datastore Catalog entry (<a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels">ERA5 hourly data on single levels from 1979 to present</a> ). The dataset contains 14 variables related to the reanalysis product type: 2 metre dewpoint temperature, mean sea level pressure, snowfall, surface pressure, surface solar radiation downwards, surface thermal radiation downwards, 2 metre temperature, total precipitation, 10 metre U wind component, 10 metre V wind component, total cloud cover, minimum and maximum temperature at 2 metres since previous post-processing, mean wave direction. Data are currently available starting from 1979.
+
+sources:
+  era5_single_levels_sub_data_set:
+    description: reanalysis, total_precipitation variable, 2014, May, 1-7 Days, 4 hourly data.
+    driver: geokube_netcdf
+    args:
+      path: '/data/datasets/ERA5/single-levels/reanalysis/**/*.nc'
+    # driver: netcdf  
+    # args:
+    #   urlpath: '{{ CATALOG_DIR }}../datasets/ERA5/single-levels/reanalysis/**/*.nc'
+

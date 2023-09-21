@@ -1,0 +1,8 @@
+metadata:
+  version: 0.6
+
+sources:
+  era5-single-levels:
+    driver: yaml_file_cat
+    args:
+      path: '{{ CATALOG_DIR }}/catalog/era5_single_levels.yaml'
