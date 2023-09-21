@@ -8,7 +8,4 @@ sources:
     driver: geokube_netcdf
     args:
       path: '/data/datasets/ERA5/single-levels/reanalysis/**/*.nc'
-    # driver: netcdf  
-    # args:
-    #   urlpath: '{{ CATALOG_DIR }}../datasets/ERA5/single-levels/reanalysis/**/*.nc'
 
