@@ -1,5 +1,10 @@
 metadata:
   version: 0.6
+  parameters:
+    CACHE_DIR:
+      type: str
+      description: folder to store metadata cache files
+      default: /data/cache
 
 sources:
   era5-single-levels:
