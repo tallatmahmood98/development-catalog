@@ -7,5 +7,5 @@ sources:
     description: reanalysis, total_precipitation variable, 2014, May, 1-7 Days, 4 hourly data.
     driver: geokube_netcdf
     args:
-      path: '{{ CATALOG_DIR }}/datasets/ERA5/single-levels/reanalysis/**/*.nc'
+      path: '/catalog/Catalog/datasets/ERA5/single-levels/reanalysis/**/*.nc'
 
