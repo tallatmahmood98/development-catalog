@@ -4,8 +4,6 @@ metadata:
 
 sources:
   era5_single_levels_sub_data_set:
-    metadata:
-        role: cmcc
     description: reanalysis, total_precipitation variable, 2014, May, 1-7 Days, 4 hourly data.
     driver: geokube_netcdf
     args:
