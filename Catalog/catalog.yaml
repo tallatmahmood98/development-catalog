@@ -4,7 +4,7 @@ metadata:
     CACHE_DIR:
       type: str
       description: folder to store metadata cache files
-      default: /data/cache
+      default: /catalog/cache
 
 sources:
   era5-single-levels:
