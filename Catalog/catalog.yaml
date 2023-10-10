@@ -11,3 +11,7 @@ sources:
     driver: yaml_file_cat
     args:
       path: '{{ CATALOG_DIR }}/catalog/era5_single_levels.yaml'
+  active-fire-monitoring:
+    driver: yaml_file_cat
+    args:
+      path: '{{ CATALOG_DIR }}/catalog/active_fire_monitoring.yaml'

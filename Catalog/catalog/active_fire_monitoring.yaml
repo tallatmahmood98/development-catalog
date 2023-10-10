@@ -1,0 +1,8 @@
+sources:
+  daily:
+    description: Daily data for Active Fire Monitoring dataset.
+    driver: geokube_netcdf
+    args:
+      path: '{{ CATALOG_DIR }}/../datasets/ACTIVE_FIRE_MONITORING/daily/netcdfs/*/*/*.nc'
+      metadata_caching: true
+      metadata_cache_path: '{{ CACHE_DIR }}/active_fire_monitoring_daily.cache'
