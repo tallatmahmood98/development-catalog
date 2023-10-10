@@ -6,3 +6,6 @@ sources:
       path: '{{ CATALOG_DIR }}/../datasets/ACTIVE_FIRE_MONITORING/daily/netcdfs/*/*/*.nc'
       metadata_caching: false
       metadata_cache_path: '{{ CACHE_DIR }}/active_fire_monitoring_daily.cache'
+      xarray_kwargs:
+        concat_dim: 'values'
+        combine: 'nested'
